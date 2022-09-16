@@ -1,6 +1,16 @@
 [
 {
   "directory": "E:\\CODE\\HelloEngine",
+  "arguments": ["D:\\VS2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Ox", "/fp:fast", "/std:c++20", "/DHELLO_PLATFORM_WINDOWS", "/DHELLO_BUILD_DLL", "/DNDEBUG", "/Fobuild\\.objs\\Hello\\windows\\x64\\release\\src\\Hello\\Core\\Application.cpp.obj", "src\\Hello\\Core\\Application.cpp"],
+  "file": "src\\Hello\\Core\\Application.cpp"
+},
+{
+  "directory": "E:\\CODE\\HelloEngine",
   "arguments": ["D:\\VS2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Ox", "/fp:fast", "/std:c++20", "/IE:\\CODE\\HelloEngine\\build\\.packages\\g\\glfw-3.3.8\\latest\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/IE:\\CODE\\HelloEngine\\build\\.packages\\i\\imgui-1.88\\latest\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/DNDEBUG", "/Fobuild\\.objs\\HelloEngine\\windows\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp"],
   "file": "src\\main.cpp"
+},
+{
+  "directory": "E:\\CODE\\HelloEngine",
+  "arguments": ["D:\\VS2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Ox", "/fp:fast", "/Isrc\\Hello", "/DHELLO_PLATFORM_WINDOWS", "/DNDEBUG", "/Fobuild\\.objs\\Sandbox\\windows\\x64\\release\\src\\Sandbox\\Sandbox.cpp.obj", "src\\Sandbox\\Sandbox.cpp"],
+  "file": "src\\Sandbox\\Sandbox.cpp"
 }]

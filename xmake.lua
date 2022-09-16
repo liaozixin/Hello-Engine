@@ -22,6 +22,9 @@ package("imgui-1.88")
   end)
 package_end()
 
+includes("src/Hello")
+includes("src/Sandbox")
+
 add_requires("glfw-3.3.8")
 add_requires("imgui-1.88")
 target("HelloEngine")

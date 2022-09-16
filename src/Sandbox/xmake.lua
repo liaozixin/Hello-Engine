@@ -1,0 +1,6 @@
+target("Sandbox")
+  set_kind("binary")
+  add_defines("HELLO_PLATFORM_WINDOWS")
+  add_files("*.cpp")
+  add_deps("Hello")
+  add_includedirs("../Hello")
